@@ -2,8 +2,8 @@ from flask import Flask, request
 import requests
 import os
 
-BOT_TOKEN = os.environ["8370974747:AAEORpi5pPxeTWa7DZppw5R7z3PH5atfXug"]
-CHAT_ID = os.environ["155587128"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
+CHAT_ID = os.environ["CHAT_ID"]
 
 app = Flask(__name__)
 
